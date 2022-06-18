@@ -89,7 +89,7 @@ namespace Simply_add_a_license.Commands
         private void Execute(object sender, EventArgs e)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
-            new Window().Show();
+            new SimplyAddALicenseWindow().Show();
         }
     }
 }
