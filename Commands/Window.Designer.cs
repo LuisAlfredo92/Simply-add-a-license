@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SimplyAddALicenseWindow));
             this.licensesListView = new System.Windows.Forms.ListView();
             this.buttonsPanel = new System.Windows.Forms.Panel();
             this.moreInfobutton = new System.Windows.Forms.Button();
@@ -65,6 +66,7 @@
             // moreInfobutton
             // 
             this.moreInfobutton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.moreInfobutton.Enabled = false;
             this.moreInfobutton.Location = new System.Drawing.Point(0, 0);
             this.moreInfobutton.Name = "moreInfobutton";
             this.moreInfobutton.Size = new System.Drawing.Size(300, 32);
@@ -76,6 +78,7 @@
             // addLicensebutton
             // 
             this.addLicensebutton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.addLicensebutton.Enabled = false;
             this.addLicensebutton.Location = new System.Drawing.Point(300, 0);
             this.addLicensebutton.Name = "addLicensebutton";
             this.addLicensebutton.Size = new System.Drawing.Size(300, 32);
@@ -94,6 +97,7 @@
             this.licenseTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.licenseTextBox.Size = new System.Drawing.Size(600, 418);
             this.licenseTextBox.TabIndex = 2;
+            this.licenseTextBox.Text = "🢀 Select a license from the list at left";
             // 
             // SimplyAddALicenseWindow
             // 
@@ -103,6 +107,7 @@
             this.Controls.Add(this.licenseTextBox);
             this.Controls.Add(this.buttonsPanel);
             this.Controls.Add(this.licensesListView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SimplyAddALicenseWindow";
             this.Text = "Simply add a license";
             this.buttonsPanel.ResumeLayout(false);

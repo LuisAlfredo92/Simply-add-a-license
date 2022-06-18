@@ -16,14 +16,17 @@ namespace Simply_add_a_license.Commands
         /// Gets or Sets the license id. E.g. "0BSD"
         /// </summary>
         public string LicenseId { get; set; }
+
         /// <summary>
         /// Gets or Sets the name of the license. E.g. "BSD Zero Clause License"
         /// </summary>
         public string Name { get; set; }
+
         /// <summary>
         /// Gets or Sets the text of the license, the main part of it, the body.
         /// </summary>
         public string Text { get; set; }
+
         /// <summary>
         /// Gets or Sets the URL of the license information. E.g. "https://opensource.org/licences/0BSD".
         /// Licenses on json files can have more than one link, however, I'll try to use the
