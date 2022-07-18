@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Simply_add_a_license.1fed752c-4993-400a-908c-3332bf36f632" Version="0.2" Language="en-US" Publisher="LuisAlfredo92" />
+        <Identity Id="Simply_add_a_license.1fed752c-4993-400a-908c-3332bf36f632" Version="1.0.0" Language="en-US" Publisher="LuisAlfredo92" />
         <DisplayName> Simply add a license</DisplayName>
         <Description xml:space="preserve">A tiny extension to easily add a license to your project. The licenses were taken from https://github.com/spdx/license-list-data</Description>
         <MoreInfo>https://github.com/LuisAlfredo92/Simply-add-a-license</MoreInfo>
@@ -13,7 +13,7 @@
         <Preview>true</Preview>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
             <ProductArchitecture>x86</ProductArchitecture>
         </InstallationTarget>
         <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
@@ -21,6 +21,15 @@
         </InstallationTarget>
         <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
             <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
     </Installation>
     <Dependencies>

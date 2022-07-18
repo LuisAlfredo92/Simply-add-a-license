@@ -85,6 +85,7 @@
             this.addLicensebutton.TabIndex = 0;
             this.addLicensebutton.Text = "Add license";
             this.addLicensebutton.UseVisualStyleBackColor = true;
+            this.addLicensebutton.Click += new System.EventHandler(this.addLicensebutton_Click);
             // 
             // licenseTextBox
             // 

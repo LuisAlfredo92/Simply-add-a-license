@@ -1,11 +1,10 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
 using System;
 using System.ComponentModel.Design;
-using System.Globalization;
-using System.Threading;
-using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
+using EnvDTE80;
+using System.IO;
+using System.Runtime.InteropServices;
 
 namespace Simply_add_a_license.Commands
 {
@@ -89,7 +88,22 @@ namespace Simply_add_a_license.Commands
         private void Execute(object sender, EventArgs e)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
-            new SimplyAddALicenseWindow().Show();
+
+            try
+            {
+                var dte2 = (DTE2)(Marshal.GetActiveObject("VisualStudio.DTE.17.0") ?? Marshal.GetActiveObject("VisualStudio.DTE.16.0"));
+                var solutionDir = Directory.GetParent(dte2.Solution.FullName);
+                var licenseWindow = new SimplyAddALicenseWindow() { Solutionpath = solutionDir };
+                licenseWindow.Show();
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "You must open a solution to add a license",
+                    "Open a Visual Studio solution",
+                    System.Windows.Forms.MessageBoxButtons.OK,
+                    System.Windows.Forms.MessageBoxIcon.Error);
+            }
         }
     }
 }
