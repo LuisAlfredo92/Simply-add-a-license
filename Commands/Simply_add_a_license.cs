@@ -89,12 +89,12 @@ namespace Simply_add_a_license.Commands
         {
             ThreadHelper.ThrowIfNotOnUIThread();
 
-            /*try
-            {*/
-            var dte2 = (DTE2)(Marshal.GetActiveObject("VisualStudio.DTE.17.0") ?? Marshal.GetActiveObject("VisualStudio.DTE.16.0"));
-            var solutionDir = Directory.GetParent(dte2.Solution.FullName);
-            new SimplyAddALicenseWindow() { Solutionpath = solutionDir }.Show();
-            /*}
+            try
+            {
+                var dte2 = (DTE2)(Marshal.GetActiveObject("VisualStudio.DTE.17.0") ?? Marshal.GetActiveObject("VisualStudio.DTE.16.0"));
+                var solutionDir = Directory.GetParent(dte2.Solution.FullName);
+                new SimplyAddALicenseWindow() { Solutionpath = solutionDir }.Show();
+            }
             catch
             {
                 System.Windows.Forms.MessageBox.Show(
@@ -102,7 +102,7 @@ namespace Simply_add_a_license.Commands
                     "Open a Visual Studio solution",
                     System.Windows.Forms.MessageBoxButtons.OK,
                     System.Windows.Forms.MessageBoxIcon.Error);
-            }*/
+            }
         }
     }
 }
