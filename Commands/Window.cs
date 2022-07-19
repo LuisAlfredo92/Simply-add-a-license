@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -112,7 +111,7 @@ namespace Simply_add_a_license.Commands
         /// <summary>
         /// Function that will be excecuted when clicking on "Add license" button
         /// </summary>
-        private void addLicensebutton_Click(object sender, EventArgs e)
+        private void AddLicensebutton_Click(object sender, EventArgs e)
         {
             // First we get both paths (License file and csproj)
             bool? overwrite = null;

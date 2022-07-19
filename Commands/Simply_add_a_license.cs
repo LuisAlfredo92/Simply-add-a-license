@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.Shell;
+﻿using EnvDTE80;
+using Microsoft.VisualStudio.Shell;
 using System;
 using System.ComponentModel.Design;
-using Task = System.Threading.Tasks.Task;
-using EnvDTE80;
 using System.IO;
 using System.Runtime.InteropServices;
+using Task = System.Threading.Tasks.Task;
 
 namespace Simply_add_a_license.Commands
 {

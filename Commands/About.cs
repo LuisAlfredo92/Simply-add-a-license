@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Diagnostics;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Simply_add_a_license.Commands
 {
@@ -58,7 +51,7 @@ namespace Simply_add_a_license.Commands
         /// <summary>
         /// Funtion executed when clicking the licenses link label
         /// </summary>
-        private void LicensesLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start("https://github.com/spdx/license-list-data)");
+        private void LicensesLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start("https://github.com/spdx/license-list-data");
 
         /// <summary>
         /// Funtion executed when clicking The Linux Foundation link label
@@ -95,5 +88,7 @@ namespace Simply_add_a_license.Commands
         /// Funtion executed when clicking the MSLT license link label
         /// </summary>
         private void MSLTLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start("https://www.nuget.org/packages/envdte100/17.2.32505.113/license");
+
+
     }
 }

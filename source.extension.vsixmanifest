@@ -9,26 +9,26 @@
         <GettingStartedGuide>Start guide.txt</GettingStartedGuide>
         <ReleaseNotes>Release notes.txt</ReleaseNotes>
         <Icon>Resources\Simply add a license icon 128x128.png</Icon>
-        <PreviewImage>Resources\SAaLpackage.ico</PreviewImage>
+        <PreviewImage>Resources\Simply add a license icon 128x128.png</PreviewImage>
         <Tags>licenses,license,legal,open source</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)">
             <ProductArchitecture>x86</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro">
             <ProductArchitecture>x86</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise">
             <ProductArchitecture>x86</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Community">
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
     </Installation>

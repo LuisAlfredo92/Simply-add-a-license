@@ -81,7 +81,7 @@
             resources.ApplyResources(this.addLicensebutton, "addLicensebutton");
             this.addLicensebutton.Name = "addLicensebutton";
             this.addLicensebutton.UseVisualStyleBackColor = true;
-            this.addLicensebutton.Click += new System.EventHandler(this.addLicensebutton_Click);
+            this.addLicensebutton.Click += new System.EventHandler(this.AddLicensebutton_Click);
             // 
             // licenseTextBox
             // 

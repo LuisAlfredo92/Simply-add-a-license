@@ -254,6 +254,7 @@
             this.myGitHubLinkLabel.TabIndex = 9;
             this.myGitHubLinkLabel.TabStop = true;
             this.myGitHubLinkLabel.Text = "My GitHub profile";
+            this.myGitHubLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MyGitHubLinkLabel_LinkClicked);
             // 
             // symbolPictureBox
             // 
@@ -264,6 +265,7 @@
             this.symbolPictureBox.Size = new System.Drawing.Size(379, 375);
             this.symbolPictureBox.TabIndex = 8;
             this.symbolPictureBox.TabStop = false;
+            this.symbolPictureBox.Click += new System.EventHandler(this.SymbolPictureBox_Click);
             // 
             // label1
             // 
@@ -284,6 +286,7 @@
             this.githubLinkLabel.TabIndex = 6;
             this.githubLinkLabel.TabStop = true;
             this.githubLinkLabel.Text = "GitHub repository";
+            this.githubLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GithubLinkLabel_LinkClicked);
             // 
             // titlePictureBox
             // 
@@ -294,6 +297,7 @@
             this.titlePictureBox.Size = new System.Drawing.Size(388, 128);
             this.titlePictureBox.TabIndex = 5;
             this.titlePictureBox.TabStop = false;
+            this.titlePictureBox.Click += new System.EventHandler(this.TitlePictureBox_Click);
             // 
             // About
             // 
