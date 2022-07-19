@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3100"
+   height="1024"
+   viewBox="0 0 775 256"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Simply add a license title.svg"
+   inkscape:export-filename="..\..\..\..\..\Desktop\Simply add a license title.png"
+   inkscape:export-xdpi="12"
+   inkscape:export-ydpi="12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title20938">Simply add a license title</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     scale-x="0.26458"
+     borderlayer="true"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     guidecolor="#c3c3ff"
+     guideopacity="0.49803922"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.25"
+     inkscape:cx="1452"
+     inkscape:cy="344"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="1.2957076,256"
+       orientation="0,1024"
+       id="guide9"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="257.29571,256"
+       orientation="1024,0"
+       id="guide11"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="257.29571,-4.5526008e-07"
+       orientation="0,-1024"
+       id="guide13"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1.2957076,-4.5526008e-07"
+       orientation="-1024,0"
+       id="guide15"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid17"
+       color="#3f65ff"
+       opacity="0.50196078"
+       empcolor="#9356c6"
+       empopacity="0.50196078"
+       spacingx="16"
+       spacingy="16"
+       originx="1.2957076"
+       originy="5e-07"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="1088"
+       y="64"
+       width="2944"
+       height="896"
+       id="rect1586" />
+    <rect
+       x="4096"
+       y="0"
+       width="3008"
+       height="1024"
+       id="rect1580" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.2957076)">
+    <path
+       style="fill:#3737c8;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 96.000002,41.723119 0,208 65.569223,190.43078 83.138443,255.99997 179.13844,89.72312"
+       id="path16173" />
+    <path
+       style="fill:#3737c8;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 160,41.723124 256,208 l -65.56922,-17.56921 -17.56922,65.56918 -96,-166.27685"
+       id="path16173-4" />
+    <path
+       id="path6595"
+       style="fill:#ff6600;stroke:#ffd42a;stroke-width:0;stroke-linejoin:round"
+       d="m 208,80 c 0,5.522847 -4.81342,10.330522 -5.82202,15.259467 -1.00861,4.928953 1.55933,11.094603 -0.46478,15.880143 -2.02411,4.78554 -8.20673,7.16595 -10.92808,11.19407 -2.72136,4.02814 -2.59729,10.61557 -6.21658,14.23486 -3.61929,3.61929 -10.20672,3.49522 -14.23486,6.21657 -4.02813,2.72136 -6.40853,8.90398 -11.19407,10.92809 -4.78554,2.02411 -10.95119,-0.54383 -15.88014,0.46478 C 138.33052,155.18658 133.52285,160 128,160 c -5.52284,0 -10.33052,-4.81342 -15.25947,-5.82202 -4.92894,-1.00861 -11.0946,1.55933 -15.88014,-0.46478 -4.785534,-2.02411 -7.165943,-8.20673 -11.194075,-10.92808 -4.028131,-2.72136 -10.615569,-2.59729 -14.234857,-6.21658 -3.619286,-3.61929 -3.495221,-10.20672 -6.216573,-14.23486 -2.721353,-4.02813 -8.903978,-6.40853 -10.928088,-11.19407 -2.02411,-4.78554 0.543831,-10.95119 -0.464778,-15.880143 C 52.81341,90.330521 48,85.522847 48,80 48,74.477153 52.81341,69.669478 53.822019,64.740532 54.830627,59.811585 52.262686,53.645924 54.286797,48.86039 56.310907,44.074856 62.493531,41.694447 65.214883,37.666316 67.936235,33.638184 67.81217,27.050746 71.431458,23.431458 75.050747,19.81217 81.638185,19.936235 85.666316,17.214883 89.694447,14.493531 92.074856,8.3109068 96.86039,6.2867966 101.64592,4.262686 107.81158,6.8306271 112.74053,5.8220187 117.66948,4.8134103 122.47716,0 128,0 c 5.52285,0 10.33052,4.8134105 15.25947,5.822019 4.92895,1.0086084 11.0946,-1.5593325 15.88014,0.4647776 4.78554,2.0241102 7.16595,8.2067344 11.19407,10.9280864 4.02814,2.721352 10.61557,2.597286 14.23486,6.216575 3.61929,3.619291 3.49522,10.206729 6.21657,14.23486 2.72136,4.02813 8.90398,6.408538 10.92809,11.194072 2.02411,4.785534 -0.54383,10.951195 0.46478,15.880142 C 203.18658,69.669478 208,74.477153 208,80 Z"
+       sodipodi:nodetypes="sssssssssssssssssssssssssssssssss" />
+    <circle
+       style="fill:#ffd42a;fill-rule:nonzero;stroke:#ff6600;stroke-width:0;stroke-linejoin:round;stroke-dasharray:none;paint-order:normal"
+       id="path2750"
+       cx="128"
+       cy="80"
+       r="71.471832" />
+    <path
+       id="path26515"
+       style="fill:#00ccff;stroke:#000000;stroke-width:1.70383;stroke-linejoin:round"
+       d="m 163.65472,71.235795 c 8.51695,-8.51695 8.51694,-22.325677 0,-30.842622 -8.51695,-8.516948 -22.32567,-8.51695 -30.84263,0 -4.25847,4.258479 -6.38726,9.839899 -6.38726,15.421313 -2e-5,2.790712 0.51055,5.560179 1.57517,8.185514 l -40.487999,40.488 c 0,0 -1.496154,12.47942 -0.963836,13.01173 0.532303,0.53231 13.011725,-0.96384 13.011725,-0.96384 l 5.06106,-5.06106 8.67543,-1.44669 1.44669,-8.67542 8.67544,-1.446698 1.44621,-8.674946 8.67542,-1.446692 1.44669,-8.675432 5.06106,-5.061052 c 2.62534,1.064621 5.39482,1.575163 8.18551,1.575168 5.58143,-2e-6 11.16285,-2.128795 15.42132,-6.387273 z m -2.77008,-17.16543 a 7.7126295,7.7126294 0 0 1 -10.90711,-3e-6 7.7126295,7.7126294 0 0 1 0,-10.90711 7.7126295,7.7126294 0 0 1 10.90711,-4e-6 7.7126295,7.7126294 0 0 1 0,10.907117 z" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.25)"
+       id="text1578"
+       style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1580);display:inline" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25,0,0,0.25,-125.59469,11.947493)"
+       id="text1584"
+       style="font-size:341.333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1586);display:inline"><tspan
+         x="1524.2253"
+         y="375.40845"
+         id="tspan9738"><tspan
+           style="font-weight:800;font-family:Aneliza;-inkscape-font-specification:'Aneliza Ultra-Bold'"
+           id="tspan9736">Simply add a </tspan></tspan><tspan
+         x="1992.5337"
+         y="804.57679"
+         id="tspan9742"><tspan
+           style="font-weight:800;font-family:Aneliza;-inkscape-font-specification:'Aneliza Ultra-Bold'"
+           id="tspan9740">license</tspan></tspan></text>
+  </g>
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>LuisAlfredo92</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>LuisAlfredo92</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>es-MX</dc:language>
+        <dc:title>Simply add a license title</dc:title>
+        <dc:date>29/05/2022</dc:date>
+        <dc:source>México</dc:source>
+        <dc:description>Simply add a license icon</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>LuisAlfredo92</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>GPL-3.0-or-later</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="https://spdx.org/licenses/GPL-3.0-or-later.html" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

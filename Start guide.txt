@@ -1,0 +1,4 @@
+1. Open a solution (neccesary or the extension won't work)
+2. Go to Tools > Invoke Simply add a license
+3. Select the license you want to add. You can select one of the most common ones for Open Source Software or select one for the full list
+4. Once you've selected a license, you can add it ti your project clicking on the "Add license" button

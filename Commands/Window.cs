@@ -105,7 +105,7 @@ namespace Simply_add_a_license.Commands
             licenseTextBox.Text = selectedLicense.Text.Replace("\n", "\r\n");
 
             // Activate buttons
-            moreInfobutton.Enabled = true;
+            aboutLicensebutton.Enabled = true;
             addLicensebutton.Enabled = true;
         }
 
@@ -166,6 +166,14 @@ namespace Simply_add_a_license.Commands
             #endregion
             Close();
             Dispose();
+        }
+
+        /// <summary>
+        /// Opens the About window
+        /// </summary>
+        private void AboutPictureBox_Click(object sender, EventArgs e)
+        {
+            new About().Show();
         }
     }
 }

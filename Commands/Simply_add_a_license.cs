@@ -40,7 +40,7 @@ namespace Simply_add_a_license.Commands
             commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
             var menuCommandID = new CommandID(CommandSet, CommandId);
-            var menuItem = new MenuCommand(this.Execute, menuCommandID);
+            var menuItem = new MenuCommand(Execute, menuCommandID);
             commandService.AddCommand(menuItem);
         }
 
@@ -89,13 +89,12 @@ namespace Simply_add_a_license.Commands
         {
             ThreadHelper.ThrowIfNotOnUIThread();
 
-            try
-            {
-                var dte2 = (DTE2)(Marshal.GetActiveObject("VisualStudio.DTE.17.0") ?? Marshal.GetActiveObject("VisualStudio.DTE.16.0"));
-                var solutionDir = Directory.GetParent(dte2.Solution.FullName);
-                var licenseWindow = new SimplyAddALicenseWindow() { Solutionpath = solutionDir };
-                licenseWindow.Show();
-            }
+            /*try
+            {*/
+            var dte2 = (DTE2)(Marshal.GetActiveObject("VisualStudio.DTE.17.0") ?? Marshal.GetActiveObject("VisualStudio.DTE.16.0"));
+            var solutionDir = Directory.GetParent(dte2.Solution.FullName);
+            new SimplyAddALicenseWindow() { Solutionpath = solutionDir }.Show();
+            /*}
             catch
             {
                 System.Windows.Forms.MessageBox.Show(
@@ -103,7 +102,7 @@ namespace Simply_add_a_license.Commands
                     "Open a Visual Studio solution",
                     System.Windows.Forms.MessageBoxButtons.OK,
                     System.Windows.Forms.MessageBoxIcon.Error);
-            }
+            }*/
         }
     }
 }

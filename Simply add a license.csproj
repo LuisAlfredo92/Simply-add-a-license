@@ -10,6 +10,9 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Simply-add-a-license-icon-128x128_1.ico</ApplicationIcon>
+  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -51,6 +54,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
     <Compile Include="Commands\License.cs" />
     <Compile Include="Commands\Simply_add_a_license.cs" />
     <Compile Include="Commands\Simply_add_a_licensePackage.cs" />
@@ -75,6 +84,19 @@
     <Compile Include="Simply_add_a_licensePackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Commands\Resources\ChooseALicense.png" />
+    <None Include="Commands\Resources\choosealicense1.png" />
+    <Content Include="Commands\Resources\envdte100.png" />
+    <None Include="Commands\Resources\envdte1001.png" />
+    <Content Include="Commands\Resources\External licenses\Apache 2.0 License.txt">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Commands\Resources\logo_spdx_2501.png" />
+    <Content Include="Commands\Resources\LuisAlfredo92 - Título.png" />
+    <None Include="Commands\Resources\luisalfredo92 - título1.png" />
+    <Content Include="Commands\Resources\Simply add a license title.png" />
+    <None Include="Commands\Resources\simply add a license title1.png" />
     <Content Include="Resources\Licenses\details\0BSD.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -2031,6 +2053,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="Resources\Simply add a license icon 128x1281.png" />
+    <None Include="Resources\simply add a license icon 32x321.png" />
+    <Content Include="Start guide.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="Resources\Licenses\exceptions.json" />
     <None Include="Resources\Licenses\exceptions\389-exception.json" />
     <None Include="Resources\Licenses\exceptions\Autoconf-exception-2.0.json" />
@@ -2119,6 +2147,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Commands\Resources\logo_spdx_250.png" />
     <Content Include="Resources\SAaLpackage.ico" />
     <Content Include="Resources\Simply add a license icon 128x128.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -2135,6 +2164,12 @@
     <Content Include="Resources\Simply-add-a-license-icon-64x64_1.ico" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Commands\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\Window.en.resx">
+      <DependentUpon>Window.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Commands\Window.resx">
       <DependentUpon>Window.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -2142,10 +2177,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VSPackage.resx">
-      <MergeWithCTO>true</MergeWithCTO>
-      <ManifestResourceName>VSPackage</ManifestResourceName>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

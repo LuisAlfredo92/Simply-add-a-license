@@ -6,11 +6,11 @@
         <Description xml:space="preserve">A tiny extension to easily add a license to your project. The licenses were taken from https://github.com/spdx/license-list-data</Description>
         <MoreInfo>https://github.com/LuisAlfredo92/Simply-add-a-license</MoreInfo>
         <License>LICENSE.txt</License>
+        <GettingStartedGuide>Start guide.txt</GettingStartedGuide>
         <ReleaseNotes>Release notes.txt</ReleaseNotes>
         <Icon>Resources\Simply add a license icon 128x128.png</Icon>
         <PreviewImage>Resources\SAaLpackage.ico</PreviewImage>
         <Tags>licenses,license,legal,open source</Tags>
-        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
