@@ -1,2 +1,7 @@
-﻿1.0.0
+﻿1.1.0
+	-Fixed crash when solution and projects aren't on the same folder
+	-It looks like VS now adds files automatically, so I removed the csproj operations because they're not needed anymore
+	-Improving code a little bit by changing how an if works
+
+1.0.0
 	-Initial release
