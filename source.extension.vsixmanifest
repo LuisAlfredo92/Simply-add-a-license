@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Simply_add_a_license.1fed752c-4993-400a-908c-3332bf36f632" Version="1.0.0" Language="en-US" Publisher="LuisAlfredo92" />
+        <Identity Id="Simply_add_a_license.1fed752c-4993-400a-908c-3332bf36f632" Version="1.1.0" Language="en-US" Publisher="LuisAlfredo92" />
         <DisplayName> Simply add a license</DisplayName>
         <Description xml:space="preserve">A tiny extension to easily add a license to your project. The licenses were taken from https://github.com/spdx/license-list-data</Description>
         <MoreInfo>https://github.com/LuisAlfredo92/Simply-add-a-license</MoreInfo>
@@ -10,7 +10,7 @@
         <ReleaseNotes>Release notes.txt</ReleaseNotes>
         <Icon>Resources\Simply add a license icon 128x128.png</Icon>
         <PreviewImage>Resources\Simply add a license icon 128x128.png</PreviewImage>
-        <Tags>licenses,license,legal,open source</Tags>
+        <Tags>licenses;license;legal;open source</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)">

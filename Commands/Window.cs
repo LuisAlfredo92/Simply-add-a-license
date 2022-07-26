@@ -113,56 +113,28 @@ namespace Simply_add_a_license.Commands
         /// </summary>
         private void AddLicensebutton_Click(object sender, EventArgs e)
         {
-            // First we get both paths (License file and csproj)
-            bool? overwrite = null;
             string licenseFilePath = Path.Combine(Solutionpath.FullName, "LICENSE");
-            string csprojFilePath = Directory.GetFiles(Solutionpath.FullName)
-                .Where(value => value.Contains("csproj"))
-                .First();
 
-            // And whe check that there isn't an existing license already
-            if (File.Exists(licenseFilePath) || File.ReadAllText(csprojFilePath).Contains("LICENSE"))
+            // We check if there isn't an existing license already
+            if (File.Exists(licenseFilePath))
             {
-                overwrite = MessageBox.Show(
+                var overwrite = MessageBox.Show(
                     "A license already exists. Overwrite?",
                     "Overwrite license?",
                     MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Question) == DialogResult.Yes;
+                    MessageBoxIcon.Question);
 
-                if (!overwrite.Value)
-                    return;
+                // If a license exists but the user doesn't want to remove it, cancels operation
+                if (overwrite == DialogResult.Yes)
+                    File.Delete(licenseFilePath);
+                else
+                    return; // If the user wants to remove the license, deletes the files
 
-                File.Delete(licenseFilePath);
             }
 
             // Then the writing process begin
             File.WriteAllText(licenseFilePath, selectedLicense.Text);
 
-            #region Add the LICENSE file to csproj file so it'll appear on the Solution explorer
-            if (!overwrite.HasValue)
-            {
-                // We create the XML node we'll add
-                XElement licenseNode = new XElement("Content");
-                licenseNode.SetAttributeValue("Include", "LICENSE");
-                licenseNode.Add(new XElement("CopyToOutputDirectory", "Always"));
-                licenseNode.Add(new XElement("IncludeInVSIX", "true"));
-
-                // Finally we add the new node to the csproj
-                XElement csprojXML = XElement.Load(csprojFilePath);
-                var itemGroups = csprojXML.Descendants()
-                    .Where(des => des.Name.LocalName.Equals("ItemGroup"))
-                    .ToList();
-                if (itemGroups.Any())
-                    itemGroups[itemGroups.Count - 1].Add(licenseNode);
-                else
-                {
-                    XElement itemGroup = new XElement("ItemGroup");
-                    itemGroup.Add(licenseNode);
-                    csprojXML.Add(itemGroup);
-                }
-                csprojXML.Save(csprojFilePath);
-            }
-            #endregion
             Close();
             Dispose();
         }

@@ -271,7 +271,7 @@
     <value>2</value>
   </data>
   <data name="licenseTextBox.Text" xml:space="preserve">
-    <value>🢀 Select a license from the list at left</value>
+    <value>🢀 Select a license from this list</value>
   </data>
   <data name="&gt;&gt;licenseTextBox.Name" xml:space="preserve">
     <value>licenseTextBox</value>
