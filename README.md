@@ -1,3 +1,6 @@
+# DEPRECATED
+Some months after creating this extension, Visual Studio added a native option to add licenses to your repositories, so this project is no longer maintained.
+
 ![Simply_add_a_license_title.png](https://raw.githubusercontent.com/LuisAlfredo92/Simply-add-a-license/master/Commands/Resources/Simply%20add%20a%20license%20title.png "Simply_add_a_license_title.png")
 
 # _An useful extension to add a license to your project easily._
